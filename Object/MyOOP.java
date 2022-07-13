@@ -1,15 +1,15 @@
 public class MyOOP {
     public static void main(String[] args) {
         // ...
-        String delimiter = "------";
+        delimiter = "------";
 
-        printA(delimiter);
-        printB(delimiter);
+        printA();
+        printB();
         
-        // String delimiter = "*****";
+        delimiter = "*****";
 
-        printA(delimiter);
-        printB(delimiter);
+        printA();
+        printB();
     }
     public static String delimiter = "";
 
