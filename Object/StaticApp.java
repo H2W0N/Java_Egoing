@@ -29,7 +29,7 @@ public class StaticApp {
         System.out.println(f2.classVar);
         System.out.println(f2.instanceVar);
 
-        fi.classVar = "changed by f1";
+        f1.classVar = "changed by f1";
         System.out.println(Foo.classVar); // changed by f1
         System.out.println(f2.classVar);  //changed by f1
 
